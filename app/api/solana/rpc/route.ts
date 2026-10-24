@@ -5,7 +5,6 @@ export async function POST(req: NextRequest) {
   try {
     const { action, endpoint, address } = await req.json();
     
-    // Strictly production QuickNode Mainnet-beta RPC endpoint
     const rpcUrl = endpoint || "https://api.mainnet-beta.solana.com";
     const connection = new Connection(rpcUrl, "confirmed");
 

@@ -1,5 +1,5 @@
 import type {Metadata} from 'next';
-import './globals.css'; // Global styles
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Uncerson AI IDE & Solana Staking Agent',

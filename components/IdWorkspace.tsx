@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { 
   FileCode, Folder, Terminal as TerminalIcon, Sparkles, Send, Play, 
-  ShieldAlert, CheckCircle2, Cpu, Copy, Check, RefreshCw, Globe, Github, Zap 
+  ShieldAlert, CheckCircle2, Cpu, Copy, Check, RefreshCw, Globe, Zap 
 } from 'lucide-react';
 
 const ON_CHAIN_STAKING_PROGRAM = `use anchor_lang::prelude::*;
@@ -256,7 +256,7 @@ export default function IdWorkspace() {
                 onClick={() => handleSendMessage("Lookup top GitHub repositories and web sources for Solana staking code and optimize our on-chain APY formula for maximum ROI.")}
                 className="px-2.5 py-1 text-[11px] rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 whitespace-nowrap flex items-center gap-1"
               >
-                <Github className="w-3 h-3 text-cyan-400" />
+                <Globe className="w-3 h-3 text-cyan-400" />
                 Lookup GitHub Staking Code
               </button>
               <button

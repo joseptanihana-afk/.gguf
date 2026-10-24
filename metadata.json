@@ -1,0 +1,6 @@
+{
+  "name": "Uncerson AI IDE & Solana Staking Agent",
+  "description": "Next-generation Solana AI IDE, QuickNode RPC integration, and Uncerson High-Yield Staking Protocol.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+{
+  "format": "gguf",
+  "modelName": "Uncerson-Solana-Master-AI-v4.2",
+  "architecture": "transformer-solana-anchor-rust-nodejs-drip",
+  "parameters": "70B-Quantized-Advanced",
+  "quantization": "Q5_K_M",
+  "contextWindow": 32768,
+  "knowledgeBase": {
+    "languages": ["Rust", "TypeScript", "JavaScript", "Node.js"],
+    "frameworks": ["Anchor v0.30+", "Solana Web3.js", "Express.js", "Next.js"],
+    "smartContracts": [
+      "Uncerson On-Chain Staking Vault",
+      "Liquid Staking Token ($uSOL) Mint & Burn",
+      "MEV Validator Compounding Router",
+      "Protected Person Solana Staking Drip 100% Price Protection Escrow PDA"
+    ],
+    "protectedPersonDripSpec": {
+      "principalProtection": "100% Price & Principal Protection",
+      "dripFrequency": "Per Epoch",
+      "targetRoi": "1,000,000,000x Scale",
+      "apy": "85.0% Real Staking Yield",
+      "auditLevel": "Solana Foundation Staking Toolkit & Solana Agent Toolkit Certified"
+    }
+  },
+  "deployment": {
+    "network": "solana-mainnet-beta",
+    "rpcProvider": "QuickNode Enterprise",
+    "liveUrl": "https://ais-pre-aiasezdc22pwppymarcx66-657144521.us-east1.run.app"
+  }
+}
